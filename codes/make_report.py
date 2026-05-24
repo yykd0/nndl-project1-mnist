@@ -210,7 +210,7 @@ def build_report():
     set_run_font(run, size=11)
     meta2 = doc.add_paragraph()
     meta2.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = meta2.add_run("Github 代码链接：[Github 链接待补充]    模型权重链接：[ModelScope/checkpoint 链接待补充]")
+    run = meta2.add_run("Github 代码链接：https://github.com/yykd0/nndl-project1-mnist    模型权重链接：[ModelScope/checkpoint 链接待补充]")
     set_run_font(run, size=10, color="#555555")
 
     add_heading(doc, "摘要", 1)

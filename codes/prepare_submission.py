@@ -17,7 +17,7 @@ EXCLUDED_DIRS = {
     "saved_models",
     "figs",
 }
-EXCLUDED_SUFFIXES = {".pyc", ".pyo", ".pickle", ".pkl", ".gz", ".zip"}
+EXCLUDED_SUFFIXES = {".pyc", ".pyo", ".pickle", ".pkl", ".gz", ".zip", ".ipynb"}
 
 
 def should_copy(path):
@@ -53,7 +53,7 @@ def write_submission_readme(zip_path):
 
 ## 文件清单
 
-- `PJ1_report.docx`：中文 Word 报告。正式提交前请替换姓名、学号、Github 链接和模型权重链接占位。
+- `PJ1_report.docx`：中文 Word 报告。Github 链接已填入；正式提交前请替换姓名、学号和模型权重链接占位。
 - `code_for_github/`：用于上传 Github 的源码目录，已排除 MNIST 数据、模型权重、生成图表、`__pycache__` 和其他大文件。
 - `code_for_github.zip`：源码目录的压缩包版本。
 - `checkpoints/`：本地训练得到的模型权重。请上传到 ModelScope 或其他文件托管平台，再把链接填入报告。
