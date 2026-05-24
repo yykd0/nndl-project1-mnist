@@ -10,4 +10,4 @@ def accuracy(preds, labels):
 
     predict_label = np.argmax(preds, axis=-1)
     
-    return (predict_label == labels).sum() / preds.shape[0]
+    return (predict_label == labels).sum() / preds.shape[0] 
