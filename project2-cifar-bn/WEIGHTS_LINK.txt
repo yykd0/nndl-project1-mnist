@@ -1,0 +1,4 @@
+Project 2 trained model weights (base64 text on Google Drive):
+https://drive.google.com/file/d/1rVHmbTbaL2_U4Iu9SYwPujOTP2oJ0uJK/view?usp=drivesdk
+
+The local submission package also includes best_compact_cifar.pt and best_compact_cifar.pt.b64.txt.
