@@ -1,0 +1,19 @@
+{
+  "config": {
+    "epochs": 8,
+    "batch_size": 128,
+    "hidden_dim": 128,
+    "activation": "relu",
+    "lr": 0.12,
+    "weight_decay": 0.0001,
+    "lr_decay_step": 4,
+    "lr_decay_gamma": 0.5,
+    "valid_size": 10000,
+    "train_limit": null,
+    "test_limit": null,
+    "seed": 42
+  },
+  "train": {"loss": 0.3031, "accuracy": 0.8894},
+  "valid": {"loss": 0.3319, "accuracy": 0.8774},
+  "test": {"loss": 0.3723, "accuracy": 0.8692}
+}
